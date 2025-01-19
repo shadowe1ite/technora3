@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Treasure Hunt | Technora 3.0</title>
+        <link rel="stylesheet" href="../assets/css/style.css" />
+
+        <link rel="shortcut icon" href="../assets/images/logo (1).png" type="image/x-icon">
+
+        <!-- fonts -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <header>
+            <section class="wrapper">
+                <section class="all-in-header">
+                    <a href="../index.html" class="logo">
+                        <img src="../assets/images/logo_resized.png" alt="logo" />
+                    </a>
+                    <div class="all-other" id="navMenu">
+                        <a href="../index.html" class="nav">Home</a>
+                        <a href="../index.html#about" class="nav">About</a>
+                        <a href="../index.html#events" class="nav">Event</a>
+                        <a href="../index.html#rule-timing" class="nav">Schedule</a>
+                        <a href="../index.html#contact" class="nav">Contact</a>
+                    </div>
+                    <div class="burger-menu" onclick="toggleMenu()">
+                        <div class="bar"></div>
+                        <div class="bar"></div>
+                        <div class="bar"></div>
+                    </div>
+                </section> <!-- .all-in-header -->
+            </section> <!-- .wrapper ended -->
+        </header>
+        <section id="each-event">
+            <section class="wrapper">
+                <h3 class="single-name">TREASURE HUNT</h3>
+                <div class="main-event-section">
+                    <div class="for-centering">
+                        <ul class="first-part">
+                            <li>
+                                <div class="single-photo">
+                                    <img src="../assets/images/events/treasure_hunt.png" alt="treasure_hunt" />
+                                </div>
+                            </li>
+                            <li>
+                                <h5 class="first">First : 4000 ₹</h5>
+                                <h5 class="second">Second : 2000 ₹</h5>
+                                <a href="#" class="register">Coming Soon</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <h6 class="event-head">Description</h6>
+                    <p class="event-detail">Treasure Hunt is a recreational activity where participants follow a set of
+                        clues or a map to locate hidden treasures or objects.This adventure
+                        promotes participants to decipher clues and navigate through the
+                        designated area in pursuit of the hidden reward.</p>
+                    <p class="date comm-detail"><span>Date: </span>05 / 02 /2025</p>
+                    <p class="time comm-detail"><span>Time: </span>01:00pm - 03:30pm</p>
+                    <div class="each-rules">
+                        <h6>Rules</h6>
+                        <p class="each-rule"><span>⚪️</span>  Each team must have a minimum of 2 members and maximum 4 members.</p>
+                        <p class="each-rule"><span>⚪️</span> All teams must reach the venue before 1:15 pm.  ( The venue will be informed in the group.)</p>
+                        <p class="each-rule"><span>⚪️</span> The game will start at sharp 1:30 pm.</p>
+                        <p class="each-rule"><span>⚪️</span> Those who haven't reached the venue by 1:30 pm will have less time to complete the hunt.</p>
+                        <p class="each-rule"><span>⚪️</span> All teams will be provided with a QR code at the starting point which will lead you to your first location.</p>
+                        <p class="each-rule"><span>⚪️</span> Don't search for clues in off-limits areas . These places include library, prayer hall, staffrooms, offices , avt room, seminar hall and all kinds of labs.</p>
+                        <p class="each-rule"><span>⚪️</span> If  any participants move any objects for searching  clues . Kindly please place it back.</p>
+                        <p class="each-rule"><span>⚪️</span> Don't tamper or destroy QR codes . Destroying or tampering with these will lead to the disqualification of the team.</p>
+                        <p class="each-rule"><span>⚪️</span> If you have any doubts , please ask with the  volunteer who is available there.</p>
+                        <p class="each-rule"><span>⚪️</span> All participants should keep in mind not to disturb the other ongoing classes.</p>
+                        <p class="each-rule"><span>⚪️</span> Any malpractices conducted will lead to disqualification of the team.</p>
+
+                    </div>
+                </div> <!-- .main-event-section ended -->
+                <a href="./all_event.html"  class="register backing">All Event</a>
+                <section class="bottom-event">
+                    <div class="for-centering-2">
+                        <div class="event-call">
+                            <div class="event-call-icon con-icon">
+                                <img src="../assets/images/call.png" alt="call" />
+                            </div>
+                            <a href="tel:+917994672453">+91 7994672453</a>
+                        </div>
+                        <div class="event-whatsapp">
+                            <div class="event-whatsapp-icon con-icon">
+                                <img src="../assets/images/whatsapp.png" alt="whatsapp" />
+                            </div>
+                            <a href="https://wa.me/+917994672453" target="_blank" >+91 7994672453</a>
+                        </div>
+                    </div>
+                </section>
+            </section> <!-- .wrapper ended -->
+        </section> <!-- #each-event ended -->
+
+        <script>
+            function toggleMenu() {
+                var navMenu = document.getElementById('navMenu');
+                var burgerMenu = document.querySelector('.burger-menu');
+        
+                navMenu.classList.toggle('show');
+                burgerMenu.classList.toggle('cross');
+            }
+        </script>
+    </body>
+</html>

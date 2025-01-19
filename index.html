@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en" style="overflow-x: hidden;">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Technora 3.0 | National Level TechFest 2025</title>
+        <link rel="stylesheet" href="./assets/css/style.css" />
+
+        <link rel="shortcut icon" href="./assets/images/logo (1).png" type="image/x-icon" />
+
+        <!-- Fonts -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+
+        <meta property="og:title" content="Technora 3.0 | SAFI INSTITUTE OF ADVANCED STUDY (AUTONOMOUS)" />
+        <meta property="og:description" content="Technora 3.0 is an intercollegiate tech fest conducted by the Department of Computer Application & Department of Computer Science and AI Department of SAFI INSTITUTE OF ADVANCED STUDY(SIAS) (AUTONOMOUS) in Vazhayur. The event was first launched on March 22, 2022, and featured a variety of tech events,gaming experiences and expo stalls." />
+        <meta property="og:image" content="/assets/images/T2logocropped.png" />
+        <meta name="description" content="Technora 3.0 is an intercollegiate tech fest conducted by the Department of Computer Application & Department of Computer Science and AI Department of SAFI INSTITUTE OF ADVANCED STUDY(SIAS) (AUTONOMOUS) in Vazhayur. The event was first launched on March 22, 2022, and featured a variety of tech events,gaming experiences and expo stalls." />
+        <meta name="robots" content="index, follow" />
+
+    </head>
+    <body style="overflow-x: hidden;">
+        <header class="safi-logo-header">
+            <section class="wrapper">
+                <section class="all-in-header">
+                    <a href="#" class="logo">
+                        <img src="./assets/images/safi.png" alt="logo" />
+                    </a>
+                    <div class="all-other" id="navMenu">
+                        <a href="#" class="nav">Home</a>
+                        <a href="#about" class="nav">About</a>
+                        <a href="#events" class="nav">Event</a>
+                        <a href="#rule-timing" class="nav">Schedule</a>
+                        <a href="#contact" class="nav">Contact</a>
+                    </div>
+                    <div class="burger-menu" onclick="toggleMenu()">
+                        <div class="bar"></div>
+                        <div class="bar"></div>
+                        <div class="bar"></div>
+                    </div>
+                </section> <!-- .all-in-header -->
+            </section> <!-- .wrapper ended -->
+        </header>
+        <section id="spotlight">
+            <section class="wrapper">
+                <div class="main-image">
+                    <img src="./assets/images/logo (1).png" alt="logo" />
+                </div>
+                <div class="trying-img">
+                    <img src="./assets/images/2 (1).png" alt="">
+                </div>
+                <h3 class="for-h3"> February 4 & 5</h3>
+                <h3 class="for-downing">Welcome To TECHNORA 3.0</h3>
+                <a href="#events" class="register spot-button">Register</a>
+            </section> <!-- .wrapper ended -->
+        </section> <!-- #spotlight ended -->
+
+        <section id="about">
+            <section class="wrapper">
+                <!-- <h2>About TECHNORA </h2> -->
+                <ul>
+                    <li class="ab-image">
+                        <div class="about-image">
+                            <img src="./assets/images/about.png" alt="about technora" />
+                        </div>
+                    </li>
+                    <li class="ab-content">
+                        <h2>About TECHNORA </h2>
+                        <p>Technora 3.0 is an intercollegiate tech fest conducted by the Department of Computer Application & Department of Computer Science and AI Department of SAFI INSTITUTE OF ADVANCED STUDY(SIAS) (AUTONOMOUS) in Vazhayur. The event was first launched on March 22, 2022, and featured a variety of tech events,gaming experiences and expo stalls </p>
+                        <!-- <a href="#" class="register">Register</a> -->
+                    </li>
+                </ul>
+            </section> <!-- .wrapper ended -->
+        </section> <!-- #about ended -->
+
+        
+        <section id="events">
+            <section class="wrapper">
+                <h2>Events</h2>
+                <section class="event-section">
+                    <ul id="event-list">
+                        <li>
+                            <div class="group-section">
+                                <div class="event-image">
+                                    <img src="./assets/images/events/hackathon.png" alt="event" />
+                                </div>
+                                <h5 class="event-name">Hackathon</h5>
+                                <h5 class="event-reg">300 ₹</h5>
+                                <a href="./events/hackathon.html" class="register">Read More</a>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="group-section">
+                                <div class="event-image">
+                                    <img src="./assets/images/events/paper-presentation.png" alt="event" />
+                                </div>
+                                <h5 class="event-name">Paper Presentation</h5>
+                                <h5 class="event-reg">300 ₹</h5>
+                                <a href="./events/paper.html" class="register">Read More</a>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="group-section">
+                                <div class="event-image">
+                                    <img src="./assets/images/events/escaperoom.png" alt="event" />
+                                </div>
+                                <h5 class="event-name">Escape Room</h5>
+                                <h5 class="event-reg">200  ₹</h5>
+                                <a href="./events/escape_room.html" class="register">Read More</a>
+                            </div>
+                        </li>
+						<li>
+							<div class="group-section">
+								<div class="event-image">
+									<img src="../assets/images/events/slippery.png" alt="event" />
+								</div>
+								<h5 class="event-name">Slippery Football </h5>
+								<h5 class="event-reg">400 ₹</h5>
+								<a href="../events/slippery.html" class="register">Read More</a>
+							</div>
+						</li>
+                    </ul>
+                    <!-- <a href="#" class="more-button register" id="hideEvents" style="display: none;">Hide Events</a> -->
+                    <a href="./events/all_event.html" class="more-button register" id="showEvents">All Events</a>
+                </section> <!-- .event-section ended -->
+            </section> <!-- .wrapper ended -->
+        </section> <!-- #events ended -->
+
+        <section id="rule-timing">
+            <section class="wrapper">
+                <section class="rules">
+                    <h3>Rules</h3>
+                    <div class="all-rules">
+                        <h4>General Rules</h4>
+                        <p class="each-rule"><span>⚪️</span> All Registered college students must bring their ID</p>
+                        <p class="each-rule"><span>⚪️</span> Food is only provided for some events</p>
+                        <p class="each-rule"><span>⚪️</span> No internet facility is provided except for some events</p>
+                        <p class="each-rule"><span>⚪️</span> The committee's decision will be final</p>
+                    </div>
+                </section> <!-- .rules ended -->
+            </section> <!-- .wrapper ended -->
+        </section> <!-- #rule-timing ended -->
+
+        <footer>
+            <section id="contact">
+                <section class="wrapper">
+                    <h2>Contact Us</h2>
+                    <section class="both-contact">
+                        <div class="left-contact">
+                            <a href="tel:+918089986060">
+                                <div class="call-contact">
+                                    <img src="./assets/images/contact.svg" alt="call" />
+                                </div>
+                                <div class="call-detail">
+                                    <p class="name">Wajeeh</p>
+                                    <p class="number">+91 62358 49559</p>
+                                </div>
+                            </a>
+                            <a href="tel:+917736744198">
+                                <div class="call-contact">
+                                    <img src="./assets/images/contact.svg" alt="call" />
+                                </div>
+                                <div class="call-detail">
+                                    <p class="name">Rasa</p>
+                                    <p class="number"> +91 9645448123</p>
+                                </div>
+                            </a>
+                            <a href="mailto:technora@siasindia.org">
+                                <div class="call-contact">
+                                    <img src="./assets/images/mail.svg" alt="mail" />
+                                </div>
+                                <div class="call-detail">
+                                    <p class="name">Technora</p>
+                                    <p class="number">technora@siasindia.org</p>
+                                </div>
+                            </a>
+                            <!-- <div class="both-dept-logo">
+                                <div class="dept-logo">
+                                    <img src="./assets/images/safi.jpeg" alt="mail" />
+                                </div>
+                                <div class="dept-logo">
+                                    <img src="./assets/images/logodcsa.png" alt="mail" />
+                                </div>
+                            </div> -->
+                        </div>  <!-- div.left-contact ended -->
+                        <div class="right-contact">
+                            <div class="map-full">
+                                <iframe 
+                                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3913.5052210977688!2d75.90951817428359!3d11.224197088953115!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3ba65126ae5ebe23%3A0xd98aeb3112bf3001!2sSAFI%20Institute%20of%20Advanced%20Study%20(SIAS)%20Gate!5e0!3m2!1sen!2sin!4v1707678102560!5m2!1sen!2sin" 
+                                    style="border:0;" 
+                                    allowfullscreen="" 
+                                    loading="lazy" 
+                                    referrerpolicy="no-referrer-when-downgrade">
+                                </iframe>
+                            </div>
+                        </div> <!-- .right-contact ended -->
+                    </section> <!-- .both-contact ended -->
+                    <section class="bottom-event">
+                        <div class="for-centering-2">
+                            <div class="event-call">
+                                <div class="event-call-icon con-icon">
+                                    <img src="./assets/images/call.png" alt="call" />
+                                </div>
+                                <a href="tel:+916235849559">+91 6235849559</a>
+                            </div>
+                            <div class="event-whatsapp">
+                                <div class="event-whatsapp-icon con-icon">
+                                    <img src="./assets/images/whatsapp.png" alt="whatsapp" />
+                                </div>
+                                <a href="https://wa.me/+916235849559" target="_blank" >+91 62358 49559</a>
+                            </div>
+                        </div>
+                    </section> <!-- .bottom-event ended -->
+                </section>   <!-- .wrapper ended -->
+            </section> <!-- #contact ended -->
+        </footer>
+
+        <p class="developed">Developed By <a href="https://www.instagram.com/a_k_t_16/" target="_blank" >AKT 16</a></p>
+
+        <script src="https://unpkg.com/scrollreveal"></script>
+        <script src="./assets/js/index.js"></script>
+    </body>
+</html>

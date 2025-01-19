@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Spot Photography | Technora 3.0</title>
+        <link rel="stylesheet" href="../assets/css/style.css" />
+
+        <link rel="shortcut icon" href="../assets/images/logo (1).png" type="image/x-icon" />
+        <!-- fonts -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <header>
+            <section class="wrapper">
+                <section class="all-in-header">
+                    <a href="../index.html" class="logo">
+                        <img src="../assets/images/logo_resized.png" alt="logo" />
+                    </a>
+                    <div class="all-other" id="navMenu">
+                        <a href="../index.html" class="nav">Home</a>
+                        <a href="../index.html#about" class="nav">About</a>
+                        <a href="../index.html#events" class="nav">Event</a>
+                        <a href="../index.html#rule-timing" class="nav">Schedule</a>
+                        <a href="../index.html#contact" class="nav">Contact</a>
+                    </div>
+                    <div class="burger-menu" onclick="toggleMenu()">
+                        <div class="bar"></div>
+                        <div class="bar"></div>
+                        <div class="bar"></div>
+                    </div>
+                </section> <!-- .all-in-header -->
+            </section> <!-- .wrapper ended -->
+        </header>
+        <section id="each-event">
+            <section class="wrapper">
+                <h3 class="single-name">SPOT PHOTOGRAPHY</h3>
+                <div class="main-event-section">
+                    <div class="for-centering">
+                        <ul class="first-part">
+                            <li>
+                                <div class="single-photo">
+                                    <img src="../assets/images/events/photo_video.png" alt="Photography" />
+                                </div>
+                            </li>
+                            <li>
+                                <h5 class="first">First : 300 ₹</h5>
+                                <h5 class="second">Second : 200 ₹</h5>
+                                <a href="#" class="register">Coming Soon</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <h6 class="event-head">Description</h6>
+                    <p class="event-detail">Spot photography thrives on capturing the essence of a scene in its
+                        unaltered form, often highlighting raw emotions and natural expressions.
+                        This style values quick reactions and an eye for detail to seize fleeting
+                        moments, providing viewers with a genuine and unscripted glimpse into
+                        the subject</p>
+                    <p class="date comm-detail"><span>Date: </span>05 / 02 /2025</p>
+                    <p class="time comm-detail"><span>Time: </span>Open from morning till evenning</p>
+                    <div class="each-rules">
+                        <h6>Rules</h6>
+                        <p class="each-rule"><span>⚪️</span> Registration fee :20</p>
+                        <p class="each-rule"><span>⚪️</span> It is an individual competition.</p>
+                        <p class="each-rule"><span>⚪️</span> Participants should have their own digital Mobile camera or DSLR’s.</p>
+                        <p class="each-rule"><span>⚪️</span> Theme : Moments of the fest (TECHNORA 3.0)</p>
+                        <p class="each-rule"><span>⚪️</span> Only college students will be selected and must bring their college IDs.</p>
+                        <p class="each-rule"><span>⚪️</span> The participant will have to submit his/her best 3 pictures of the fest at 5pm on the registration desk.</p>
+                        <p class="each-rule"><span>⚪️</span> Decision of the judges will be final and binding.</p>
+                    </div>
+                </div> <!-- .main-event-section ended -->
+                <a href="./all_event.html"  class="register backing">All Event</a>
+                <section class="bottom-event">
+                    <div class="for-centering-2">
+                        <div class="event-call">
+                            <div class="event-call-icon con-icon">
+                                <img src="../assets/images/call.png" alt="call" />
+                            </div>
+                            <a href="tel:+919526955106">+91 9526955106</a>
+                        </div>
+                        <div class="event-whatsapp">
+                            <div class="event-whatsapp-icon con-icon">
+                                <img src="../assets/images/whatsapp.png" alt="whatsapp" />
+                            </div>
+                            <a target="_blank" href="https://wa.me/+919526955106">+91 9526955106</a>
+                        </div>
+                    </div>
+                </section>
+            </section> <!-- .wrapper ended -->
+        </section> <!-- #each-event ended -->
+
+        <script>
+            function toggleMenu() {
+                var navMenu = document.getElementById('navMenu');
+                var burgerMenu = document.querySelector('.burger-menu');
+        
+                navMenu.classList.toggle('show');
+                burgerMenu.classList.toggle('cross');
+            }
+        </script>
+    </body>
+</html>

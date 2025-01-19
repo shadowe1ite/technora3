@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Escape Room | Technora 2.0</title>
+        <link rel="stylesheet" href="../assets/css/style.css" />
+
+        <link rel="shortcut icon" href="../assets/images/logo (1).png" type="image/x-icon" />
+        <!-- fonts -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <header>
+            <section class="wrapper">
+                <section class="all-in-header">
+                    <a href="../index.html" class="logo">
+                        <img src="../assets/images/logo_resized.png" alt="logo" />
+                    </a>
+                    <div class="all-other" id="navMenu">
+                        <a href="../index.html" class="nav">Home</a>
+                        <a href="../index.html#about" class="nav">About</a>
+                        <a href="../index.html#events" class="nav">Event</a>
+                        <a href="../index.html#rule-timing" class="nav">Schedule</a>
+                        <a href="../index.html#contact" class="nav">Contact</a>
+                    </div>
+                    <div class="burger-menu" onclick="toggleMenu()">
+                        <div class="bar"></div>
+                        <div class="bar"></div>
+                        <div class="bar"></div>
+                    </div>
+                </section> <!-- .all-in-header -->
+            </section> <!-- .wrapper ended -->
+        </header>
+        <section id="each-event">
+            <section class="wrapper">
+                <h3 class="single-name">ESCAPE ROOM</h3>
+                <div class="main-event-section">
+                    <div class="for-centering">
+                        <ul class="first-part">
+                            <li>
+                                <div class="single-photo">
+                                    <img src="../assets/images/events/escaperoom.png" alt="">
+                                </div>
+                            </li>
+                            <li>
+                                <h5 class="first">First : 3000 ₹</h5>
+                                <h5 class="second">Second : 1500 ₹</h5>
+                                <a href="#" class="register">Coming Soon</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <h6 class="event-head">Description</h6>
+                    <p class="event-detail">An Escape room is an interactive adventure game where participants
+                        work to solve a series of puzzles and challenges within a set timeframe
+                        to “ESCAPE” from a locked room.This immersive experience promotes
+                        problem-solving and critical thinking skills in a themed environment
+                        Creating a Thrilling and engaging activity for participants.</p>
+                    <p class="date comm-detail"><span>Date: </span>05 / 02 /2025</p>
+                    <p class="time comm-detail"><span>Time: </span>10:00am</p>
+                    <div class="each-rules">
+                        <h6>Rules</h6>
+                        <p class="each-rule"><span>⚪️</span> You got 10 mins to solve the puzzles inside the room and find the key. Use the key to unlock the door you came in through to escape.</p>
+                        <p class="each-rule"><span>⚪️</span> All phones, wallets, and bags need to be left out of the room before entering. It will be safely returned after completion</p>
+                        <p class="each-rule"><span>⚪️</span> What you see, hear, or solve in the room, do not tell anyone else. Please don't spoil the fun for others.</p>
+                        <p class="each-rule"><span>⚪️</span> Any damage done to the props inside will be charged.</p>
+                        <p class="each-rule"><span>⚪️</span> Do not mess with any switches or outlets.</p>
+                        <p class="each-rule"><span>⚪️</span> Do not pry or force open any boxes that are locked.</p>
+                        <p class="each-rule"><span>⚪️</span> You are not locked in. You can come out any time by pressing the panic button inside.</p>
+                        <p class="each-rule"><span>⚪️</span> We reserve the right to stop the game any time</p>
+                        <p class="each-rule"><span>⚪️</span> A person or team who tried the room cannot enter again. Let everyone have a chance.</p>
+                        <p class="each-rule"><span>⚪️</span> The team who solves the fastest at the end of the day will be rewarded</p>
+                    </div>
+                </div> <!-- .main-event-section ended -->
+                <a href="./all_event.html"  class="register backing">All Event</a>
+                <section class="bottom-event">
+                    <div class="for-centering-2">
+                        <div class="event-call">
+                            <div class="event-call-icon con-icon">
+                                <img src="../assets/images/call.png" alt="call" />
+                            </div>
+                            <a href="tel:+918714203163">+91 8714203163</a>
+                        </div>
+                        <div class="event-whatsapp">
+                            <div class="event-whatsapp-icon con-icon">
+                                <img src="../assets/images/whatsapp.png" alt="whatsapp" />
+                            </div>
+                            <a href="https://wa.me/+918714203163" target="_blank" >+91 8714203163</a>
+                        </div>
+                    </div>
+                </section>
+            </section> <!-- .wrapper ended -->
+        </section> <!-- #each-event ended -->
+
+        <script>
+            function toggleMenu() {
+                var navMenu = document.getElementById('navMenu');
+                var burgerMenu = document.querySelector('.burger-menu');
+        
+                navMenu.classList.toggle('show');
+                burgerMenu.classList.toggle('cross');
+            }
+        </script>
+    </body>
+</html>
